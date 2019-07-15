@@ -1,0 +1,18 @@
+{
+    "editor.lineNumbers": "on",
+    "editor.rulers": [80, 100],
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "mypy",
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent",
+        "--no-strict-optional"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "pytest"
+}
